@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+             th, td{
+                border: 3px solid black;
+                padding: 7px;
+                text-align: center;
+            }
+            th{
+               background-color: #B7E5B4;
+            }
+            td{
+                background-color: #B5C1D1;
+               
+            }
+     #Tel{
+        background-color: azure;
+     }
+            
+        </style>
+        
+    </head>
+    <body bgcolor="#35384B">
+        <table border="3px" style="border-collapse: collapse;" align="center" width="500px" >
+            <thead>
+                <tr>
+                    <th colspan="3">Müraciət et</th>
+                </tr>
+
+            </thead>
+
+            <tbody >
+                <tr>
+                    <th>Şəkli yükləyin</th>
+                    <td colspan="2">
+                        <form action>
+                            <input type="file">
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Ad</th>
+                    <td colspan="2">
+                        <form action>
+                            <input type="text" placeholder="Ad">
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Soyad</th>
+                    <td colspan="2">
+                        <form action>
+                            <input type="text" placeholder="Soyad">
+                        </form>
+                    </td>
+                </tr>
+
+                <tr>
+                    <th>Doğum tarixi</th>
+                    <td colspan="2">
+                        <form action>
+                            <input type="date">
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Cins</th>
+                    <td colspan="2">
+                        <form action>
+                            <label for="kişi">kişi</label>
+                            <input type="radio">
+                            <label for="qadın">qadın</label>
+                            <input type="radio">
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <th>email</th>
+                    <td colspan="2">
+                        <form action>
+                            <input type="email" placeholder="Emailinizi yazın">
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <tr>
+                    <th rowspan="2">Əlaqə</th>
+                    <th id="Tel">tel1</th>
+                        <td>
+                           
+                           <form action=""><input type="text" placeholder="phone"></form> 
+                        </td>
+
+                    </tr>
+                    <tr>
+                         <th id="Tel">tel2</th>
+                        <td>
+                           
+                           <form action=""> <input type="text" placeholder="phone"></form>
+                        </td>
+                    </tr>
+                </tr>
+
+                <tr>
+                    <th>Təcrübələriniz</th>
+                    <td colspan="2">
+                        <form action>
+                            <textarea name id cols="30" rows="4"
+                                placeholder="Təcrübələrinizi qeyd edin..." ></textarea>
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Dil biliyi</th>
+                    <td colspan="2">
+                        <form action>
+                            <label for="kişi">İngilis</label>
+                            <input type="radio">
+                            <label for="qadın">Rus</label>
+                            <input type="radio">
+                            <label for>Türk</label>
+                            <input type="radio">
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Xərbi xidmət</th>
+                    <td colspan="2">
+                        <select>
+                            <option value="Xidmətdə olub">Xidmətdə olub</option>
+                            <option value="Xidmətdə olmayıb">Xidmətdə
+                                olmayıb</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Təshil</th>
+                    <td colspan="2">
+                        <select>
+                            <option value="Orta təhsil">Orta təhsil</option>
+                            <option value="Ali təhsil">Ali təhsil</option>
+                        </select>
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr >
+                    <th colspan="3"><input type="submit" value="Təsdiq et"></th>
+                </tr>
+            </tfoot>
+           
+        </table>
+        <hr>
+        <hr>
+        <div class="Video" align="center">
+        <h1>Bizim haqqımızda</h1>
+
+        <iframe width="500" height="315"
+        src="https://www.youtube.com/embed/tgbNymZ7vqY">
+        </iframe>
+    </div>
+    </body>
+</html>
