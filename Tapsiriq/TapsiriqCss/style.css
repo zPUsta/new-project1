@@ -49,7 +49,7 @@ a{
     color: aliceblue;
     text-transform: capitalize;
 }
-.unerline{
+.underline{
     text-decoration: underline;
     text-shadow:  4px 4px 6px rgba(71, 15, 8, 0.85);
 }
