@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Poppins');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+/* .madimi-one-regular {
+  font-family: "Madimi One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+ */
+  
+*{
+    background-color: #747265;
+}
+
+
+.box{
+    border: 3px solid #0a0a0a;
+    box-shadow: -1px -1px 23px 1px rgba(111,18,10,0.75);
+    width: 50%;
+    margin: 0 auto;
+}
+h1{
+    color: aliceblue;
+    font-family: "Madimi One", sans-serif;
+}
+p{
+    font-family: "Poppins", sans-serif;
+    font-size: small;
+}
+.content{
+  
+   position: relative;
+   margin: 0 auto;
+   width: 90%;
+text-align: center;
+
+  
+}
+
+.content img{
+    border: 3px dashed #0a0a0a;
+    box-shadow: -1px -1px 23px 1px rgba(111,18,10,0.75);
+    margin: 10px;
+}
+
+
+span{
+    font-size: medium;
+    color: aliceblue;
+    text-transform: capitalize;
+}
+.unerline{
+    text-decoration: underline;
+    text-shadow:  4px 4px 6px rgba(71, 15, 8, 0.85);
+}
+#specialWord{
+    text-transform: uppercase;
+    text-shadow:  4px 4px 6px rgba(25, 21, 20, 0.85);
+}
+#line{
+    color: rgb(98, 25, 25);
+   text-decoration: line-through rgba(25, 21, 20, 0.85);
+  
+}
+#headeMark{
+    text-shadow:  4px 4px 6px rgba(217, 209, 208, 0.85);
+    text-transform: uppercase;
+    font-family: "Acme", sans-serif;
+color: rgba(71, 15, 8, 0.75);
+  
+}
